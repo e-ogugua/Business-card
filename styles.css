@@ -1,0 +1,112 @@
+body {
+  background-color: rosybrown;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  color:#005b96;
+  text-decoration: none;
+  transition: color 0.3s, background-color 0.3s;
+}
+a:hover {
+  color: white;
+  background-color: #555;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+.business-card {
+width: 360px;
+background-color: #f5f5f5;
+padding: 20px;
+margin-top: 100px;
+text-align: center;
+font-size: 16px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* subtle depth */
+}
+.business-card:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.profile-image{
+max-width: 100%;
+border-radius: 50%; /* Optional: makes it a circle */
+margin-bottom: 10px;
+transition: transform 0.3s ease-in-out;
+}
+.profile-image:hover {
+  transform: scale(1.05);
+}
+.social-media {
+  margin-top: 20px;
+}
+.social-media a:hover {
+  background-color: #222;
+}
+.social-media h2 {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+.social-media i {
+  margin-right: 5px; /* Adds space between icon and text */
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap; 
+  margin-top: 10px;
+}
+.social-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+  padding: 4px 8px;
+  background-color: #444;
+  color: white;
+  border-radius: 5px;
+}
+.social-links i {
+  margin-right: 5px;
+}
+.social-links a:hover {
+  color: white;
+  background-color: #007acc; /* Strong, clean, professional blue */
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+.full-name {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #003366;
+}
+.designation {
+  color: #333;
+  margin: 5px 0;
+}
+
+.company {
+  color: #555;
+  margin: 5px 0;
+}
+@media (max-width: 400px) {
+  .business-card {
+    width: 90%;
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  .profile-image {
+    width: 100%;
+    height: auto;
+  }
+}
