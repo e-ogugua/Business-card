@@ -1,26 +1,52 @@
-# Business-card
-# Digital Business Card
+# Business Card Project
 
-## Overview
-This is a responsive digital business card website for **Chukwuka Emmanuel Ogugua**, the **Chief Executive Officer of PoshPOULE Farms Ltd**. It showcases contact information, social media links with icons, and a professional profile image.
+A responsive, professional digital business card built with HTML and CSS. Designed to display basic personal details and social media links in a clean and elegant layout.
 
-## Features
-- Responsive design with a clean and modern look
-- Integration of Font Awesome icons for social media links
-- Google Fonts (Poppins) for a unique and readable typography
-- Accessible and semantic HTML structure
-- Hover effects for interactive links
+## 🧑 About
 
-## Technologies Used
+**Name:** Chukwuka Emmanuel Ogugua  
+**Title:** Chief Executive Officer of PoshPOULE Farms Ltd  
+**Company:** CEO Transnational Resources Ltd (CEOTR Ltd)  
+**Location:** Enugu, Nigeria
+
+This digital card showcases a personal profile image, name, job title, and direct links to key social media platforms.
+
+## 📸 Features
+
+- Profile picture section
+- Full name and professional title
+- Company name
+- Social media icons with hover effects
+- Mobile responsive design (media queries)
+- Clean and modern UI using Google Fonts (Poppins)
+
+## 💻 Technologies Used
+
 - HTML5
-- CSS3 (Flexbox for layout)
-- Font Awesome for icons
-- Google Fonts for typography
+- CSS3
+- Google Fonts (Poppins)
+- Font Awesome (for social media icons)
 
-## Usage
-Clone the repository and open `index.html` in your browser to view the business card.
+## 📱 Responsive Design
 
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-open index.html
+The business card layout is fully responsive for small screens (phones under 400px wide). It uses media queries to adjust font size and spacing.
+
+## 🚀 How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/e-ogugua/Business-card.git
+   cd Business-card
+
+2. Open the `index.html` file in your browser to view the card.
+
+3. Customize the HTML and CSS files with your personal info and branding.
+
+## 📬 Contact
+
+For inquiries or collaboration:
+📧 [e.ogugua.dev@gmailcom](mailto:e.ogugua.dev@gmailcom)
+
+---
+
+© 2025 Chukwuka Emmanuel Ogugua. All rights reserved.
